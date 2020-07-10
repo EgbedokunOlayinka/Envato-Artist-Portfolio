@@ -24,13 +24,13 @@
   <body>
 
     <!-- HEADER/TOP SECTION -->
-    <header id="page-header">
+    <header>
 
       <!-- LARGE SCREEN VERSION -->
       <section class="top-section-large d-none d-md-block">
-        <div class="container-lg pt-3 header-wrapper">
+        <div class="container-xl pt-3">
 
-          <nav class="navbar navbar-expand-md px-0">
+          <nav class="navbar navbar-expand-lg px-0">
             <a class="navbar-brand" href="#">
               <img src="./assets/images/Capture.PNG" alt="">
             </a>
@@ -40,19 +40,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav text-nowrap ml-5">
                 <li class="nav-item active">
-                  <a class="nav-link header-nav-link" href="#page-header">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link header-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link header-nav-link" href="#about">About Me</a>
+                  <a class="nav-link header-nav-link" href="#">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link header-nav-link" href="#gallery">Gallery</a>
+                  <a class="nav-link header-nav-link" href="#">Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link header-nav-link" href="#prices">Prices</a>
+                  <a class="nav-link header-nav-link" href="#">Prices</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link header-nav-link" href="#page-footer">Contact Me</a>
+                  <a class="nav-link header-nav-link" href="#">Contact Me</a>
                 </li>
               </ul>
             </div>
@@ -82,32 +82,32 @@
 
       <!-- SMALLER SCREEN VERSION -->
       <section class="top-section-small d-md-none">
-        <div class="container-lg-fluid header-padding-sm">
-          <nav class="navbar navbar-expand-lg px-0 header-nav">
-            <button class="navbar-toggler header-custom-nav" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <img src="./assets/images/nav.png" alt="">
+        <div class="container-fluid header-padding-sm">
+          <nav class="navbar navbar-expand-lg px-0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a class="navbar-brand mr-auto header-logo" href="#">
+            <a class="navbar-brand mr-auto" href="#">
               <img src="./assets/images/Capture-sm.PNG" alt="">
             </a>
             
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav text-nowrap">
+              <ul class="navbar-nav text-nowrap ml-5">
                 <li class="nav-item active">
-                  <a class="nav-link header-nav-link" href="#page-header">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link header-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link header-nav-link" href="#about">About Me</a>
+                  <a class="nav-link header-nav-link" href="#">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link header-nav-link" href="#gallery">Gallery</a>
+                  <a class="nav-link header-nav-link" href="#">Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link header-nav-link" href="#prices">Prices</a>
+                  <a class="nav-link header-nav-link" href="#">Prices</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link header-nav-link" href="#page-footer">Contact Me</a>
+                  <a class="nav-link header-nav-link" href="#">Contact Me</a>
                 </li>
               </ul>
             </div>
@@ -140,7 +140,7 @@
 
     <!-- ABOUT ME SECTION -->
     <section id="about">
-      <div class="container-lg">
+      <div class="container-xl">
         <div class="about-wrapper">
           <div class="about-img-wrapper border border-light">
             <img src="./assets/images/Rectangle 4.png" alt="" class="img-fluid about-img">
@@ -160,14 +160,14 @@
 
     <!-- GALLERY SECTION -->
     <section id="gallery">
-      <div class="container-lg gallery-wrapper text-center">
+      <div class="container-xl gallery-wrapper text-center">
         <h3 class="gallery-head">Gallery</h3>
 
         <div class="gallery-subheads d-flex justify-content-center mt-4 mb-3">
-          <h5 class="gallery-subhead gallery-subhead-active">All</h5>
-          <h5 class="gallery-subhead pl-md-5 pl-4">Portraits</h5>
-          <h5 class="gallery-subhead pl-md-5 pl-4">Landscapes</h5>
-          <h5 class="gallery-subhead pl-md-5 pl-4">Abstracts</h5>
+          <h5 class="gallery-subhead px-md-4">All</h5>
+          <h5 class="gallery-subhead px-md-4">Portraits</h5>
+          <h5 class="gallery-subhead px-md-4">Landscapes</h5>
+          <h5 class="gallery-subhead px-md-4">Abstracts</h5>
         </div>
 
 
@@ -262,12 +262,12 @@
           </ol> -->
 
           <div class="carousel-indicators carousel-icons">
-            <div class="rounded-circle carousel-indicator mx-1 active" data-target="#gallery-carousel" data-slide-to="0"></div>
-            <div class="rounded-circle carousel-indicator mx-1" data-target="#gallery-carousel" data-slide-to="1"></div>
-            <div class="rounded-circle carousel-indicator mx-1" data-target="#gallery-carousel" data-slide-to="2"></div>
-            <div class="rounded-circle carousel-indicator mx-1" data-target="#gallery-carousel" data-slide-to="3"></div>
-            <div class="rounded-circle carousel-indicator mx-1" data-target="#gallery-carousel" data-slide-to="4"></div>
-            <div class="rounded-circle carousel-indicator mx-1" data-target="#gallery-carousel" data-slide-to="5"></div>
+            <img src="./assets/images/dot2.png" alt="" data-target="#gallery-carousel" data-slide-to="0" class="active px-2">
+            <img src="./assets/images/dot1.png" alt="" data-target="#gallery-carousel" data-slide-to="1" class=" px-1">
+            <img src="./assets/images/dot1.png" alt="" data-target="#gallery-carousel" data-slide-to="2" class=" px-1">
+            <img src="./assets/images/dot1.png" alt="" data-target="#gallery-carousel" data-slide-to="3" class=" px-1">
+            <img src="./assets/images/dot1.png" alt="" data-target="#gallery-carousel" data-slide-to="4" class=" px-1">
+            <img src="./assets/images/dot1.png" alt="" data-target="#gallery-carousel" data-slide-to="5" class=" px-1">
           </div>
 
 
@@ -281,30 +281,12 @@
 
     <!-- PRICES SECTION -->
     <section id="prices">
-      <div class="container-lg prices-wrapper">
+      <div class="container-xl prices-wrapper">
         <h3 class="prices-head text-center">Prices</h3>
   
         <div class="row mt-4 mb-4">
           <div class="col-md-4">
-            <div class="card prices-card prices-card-one">
-              <div class="card-body">
-                <h5 class="card-title prices-card-title text-center pt-5 pb-4">Portraits</h5>
-  
-                <div class="card-row d-flex justify-content-between">
-                  <p class="m-0 prices-card-text">Pencil Portraits</p>
-                  <p class="m-0 prices-card-text prices-price">$125</p>
-                </div>
-  
-                <div class="card-row d-flex justify-content-between">
-                  <p class="m-0 prices-card-text">Pencil Portraits</p>
-                  <p class="m-0 prices-card-text prices-price">$125</p>
-                </div>
-  
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card prices-card prices-card-two">
+            <div class="card prices-card">
               <div class="card-body">
                 <h5 class="card-title prices-card-title text-center pt-5 pb-4">Portraits</h5>
   
@@ -325,7 +307,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card prices-card prices-card-three">
+            <div class="card prices-card">
               <div class="card-body">
                 <h5 class="card-title prices-card-title text-center pt-5 pb-4">Portraits</h5>
   
@@ -339,6 +321,30 @@
                   <p class="m-0 prices-card-text prices-price">$125</p>
                 </div>
   
+                <div class="prices-btn-div pt-3">
+                  <a href="#" class="btn prices-btn mt-2">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card prices-card">
+              <div class="card-body">
+                <h5 class="card-title prices-card-title text-center pt-5 pb-4">Portraits</h5>
+  
+                <div class="card-row d-flex justify-content-between">
+                  <p class="m-0 prices-card-text">Pencil Portraits</p>
+                  <p class="m-0 prices-card-text prices-price">$125</p>
+                </div>
+  
+                <div class="card-row d-flex justify-content-between">
+                  <p class="m-0 prices-card-text">Pencil Portraits</p>
+                  <p class="m-0 prices-card-text prices-price">$125</p>
+                </div>
+  
+                <div class="prices-btn-div pt-3">
+                  <a href="#" class="btn prices-btn mt-2">Book Now</a>
+                </div>
               </div>
             </div>
           </div>
@@ -349,7 +355,7 @@
 
     <!-- FOOTER -->
     <footer id="page-footer">
-      <div class="container-lg footer-wrapper">
+      <div class="container-xl footer-wrapper">
         <div class="row">
           <div class="col-md-3 footer-col-1">
             <h3 class="footer-head mb-4">Contact Me</h3>
@@ -357,10 +363,10 @@
             <p class="footer-text">+123 456 789 098 765/p>
           </div>
           <div class="col-md-3 footer-col-2">
-            <p class="footer-text"><a href="#page-header">Home</a></p>
-            <p class="footer-text"><a href="#about">About Me</a></p>
-            <p class="footer-text"><a href="#gallery">Gallery</a></p>
-            <p class="footer-text"><a href="#prices">Prices</a></p>
+            <p class="footer-text">Home</p>
+            <p class="footer-text">About Me</p>
+            <p class="footer-text">Gallery</p>
+            <p class="footer-text">Prices</p>
           </div>
           <div class="col-md-5 footer-col-3">
             <p class="footer-text">Stay In Touch</p>
@@ -391,6 +397,6 @@
     <!-- Bootstrap -->
     <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
     <!-- Custom JS -->
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/your-js-filename.js"></script>
   </body>
 </html>
